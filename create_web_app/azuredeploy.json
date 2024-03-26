@@ -2,7 +2,7 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "projectname": {
+    "prodname": {
       "type": "string",
       "minLength": 3,
       "maxLength": 11,
@@ -26,9 +26,9 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat(parameters('projectname'), uniqueString(resourceGroup().id))]",
-    "webAppName": "[concat(parameters('projectname'), 'WebApp')]",
-    "appServicePlanName": "[concat(parameters('projectname'), 'Plan')]"
+    "storageAccountName": "[concat(parameters('prodname'), uniqueString(resourceGroup().id))]",
+    "webAppName": "[concat(parameters('prodname'), 'WebApp')]",
+    "appServicePlanName": "[concat(parameters('prodname'), 'Plan')]"
   },
   "resources": [
     {
