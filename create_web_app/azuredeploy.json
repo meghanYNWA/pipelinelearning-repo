@@ -5,9 +5,9 @@
     "projectname": {
       "type": "string",
       "minLength": 3,
-      "maxLength": 20,
+      "maxLength": 11,
       "metadata": {
-        "description": "mywnaproj"
+        "description": "mywna"
       }
     },
     "location": {
@@ -54,7 +54,7 @@
       "type": "Microsoft.Web/serverfarms",
       "apiVersion": "2022-09-01",
       "name": "[variables('appServicePlanName')]",
-      "location": "[parameters('location')]",
+      "location": "eastus",
       "sku": {
         "name": "B1",
         "tier": "Basic",
