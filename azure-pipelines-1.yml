@@ -21,6 +21,5 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/meghanYNWA/pipelinelearning-repo/main/create_web_app/azuredeploy.json'
-    overrideParameters: '-prodname ynwa'
     deploymentMode: 'Incremental'
     deploymentName: 'DPpipeline'
