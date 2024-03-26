@@ -7,7 +7,7 @@
       "minLength": 3,
       "maxLength": 11,
       "metadata": {
-        "description": "mproject."
+        "description": "mproject"
       }
     },
     "location": {
