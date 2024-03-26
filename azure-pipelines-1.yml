@@ -18,7 +18,7 @@ steps:
     subscriptionId: '36ff3c91-a5e4-431f-8201-def63af64697'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipeline-rg'
-    location: 'Central US'
+    location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/meghanYNWA/pipelinelearning-repo/main/create_web_app/azuredeploy.json'
     deploymentMode: 'Incremental'
